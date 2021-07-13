@@ -86,17 +86,17 @@ section.banner{
     .iphone, .clouds{
         display: block;
         position: absolute;
-        right: 600px;
-        top: 53px;
+        right: 500px;
+        top: 36px;
     }
 
     .iphone{
-        height: 70%;
+        height: 50%;
         width: auto;
     }
 
     .clouds{
-        height: 45%;
+        height: 30%;
         width: auto;
         top: 215px;
     }
@@ -112,6 +112,70 @@ header{
     .btn_green{
         float: right;
         margin-top: 16.5px;
+    }
+}
+
+.whatis{
+    padding-top: 50px;
+
+    .description{
+        display: inline-block;
+        width: 50%;
+        margin-top: 100px;
+        padding-right: 150px;
+    
+        p{
+            font-size: 16px;
+        }
+    
+        .title{
+            font-size: 26px;
+            font-weight: bold;
+        }
+    }
+
+    .image{
+        width: 50%;
+        float: right;
+    }
+}
+
+.protection{
+    margin-top: 150px;
+    text-align: center;
+
+    .title{
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    .protect_card{
+        width: 30%;
+        display: inline-block;
+        margin-top: 50px;
+        height: 300px;
+        vertical-align: top;
+
+        img{
+            height: 80px;
+            width: auto;
+        }
+
+        p{
+            font-size: 16px;
+
+            .boldText{
+                font-weight: bold;
+            }
+
+            padding-right: 50px;
+            padding-left: 50px;
+        }
+
+        .title{
+            font-size: 18px;
+            font-weight: bold;
+        }
     }
 }
 
