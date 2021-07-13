@@ -32,5 +32,87 @@ button, a
     cursor: pointer;
 }
 
+.btn_green{
+    border-radius: 20px;
+    color: white;
+    background-color: #77c344;
+    border: none;
+    padding: 15px 30px 15px 30px;
+    font-size: 14px;
+}
+
+section.banner{
+    background-color: #3a95d4;
+    color: white;
+    padding-bottom: 100px;
+
+    .tool{
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .together{
+        font-size: 19px;
+        img{
+            margin-left: 15px;
+            margin-right: 15px;
+            vertical-align: middle;
+        }
+
+        .roboForex{
+            margin-top: -10px;
+        }
+    }
+
+    .dohod{
+        font-weight: bold;
+        font-size: 50px;
+        margin: 0;
+
+        span{
+            color: #fbcf04;
+        }
+    }
+
+    .vivod{
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .podrobnee{
+        margin-top: 50px;
+    }
+
+    .iphone, .clouds{
+        display: block;
+        position: absolute;
+        right: 600px;
+        top: 53px;
+    }
+
+    .iphone{
+        height: 70%;
+        width: auto;
+    }
+
+    .clouds{
+        height: 45%;
+        width: auto;
+        top: 215px;
+    }
+}
+
+header{
+    .logo{
+        img{
+            margin-top: 16.5px;
+        }
+    }
+
+    .btn_green{
+        float: right;
+        margin-top: 16.5px;
+    }
+}
 
 @import 'responce';

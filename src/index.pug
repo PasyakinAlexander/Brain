@@ -9,11 +9,10 @@ html(lang="ru")
         title Document
         include pug/head.pug
     body
+        section.banner
+            .container
+                +Header()
+                +Banner()
         .container
-            h1 Hi from PUG! 
-            +InputRadio('name', 'test')
-            
-            +Modal('test', 'ModalTemplate')
-            button(modal="test") Modal Test
 
         include pug/scripts.pug
